@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>framework7</title>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+			
+	
+</head>
+
+<body class="color-theme-blue">
+ <section id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+	 
+	 
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left">
+					<a class="link panel-open" data-panel="left">
+						<i class="material-icons">
+							menu
+						</i>
+			
+					</a>
+				</div>
+              <div class="title">Lupe</div>
+				
+						<div class="right">
+						 <a href="#" class="link popover-open" data-popover=".popup-menu">
+							<i class="material-icons">
+							more_vert
+							</i>
+							</a>
+						</div>
+			
+            </div>
+          </nav>
+          
+         
+
+			<div class="page-content">
+			  <div class="block">
+				<p>
+				  <!-- Open in login screen-modal that is already in DOM-->
+				  <a href="#" class="button login-screen-open" data-login-screen=".login-screen">Open As Modal</a>
+				</p>
+				<p>
+				  <!-- Load page with login screen-->
+				  <a href="/login-screen/" class="button">Open As Page</a>
+				</p>
+			  </div>
+			</div>
+			
+		  </section>
+
+	
+		  </div>
+	</section>
+	
+	
+	
+	
+	<section class="login-screen modal-in">
+	 <div class="cuadro"></div>
+ 
+  <div class="view">
+    <div class="page">
+      <!-- page-content has additional login-screen content -->
+      <div class="page-content login-screen-content">
+        <div class="login-screen-title"><img src="img/logo lupe min.png" alt="Logo"></div>
+		  
+        <!-- Login form -->
+        <form>
+          <div class="list">
+            <ul>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Username</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="username" placeholder="Username">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Password</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="password" placeholder="Password">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <ul>
+              <li>
+				   <!-- se puede poner btn fill. btn round -->
+                <a href="/perfil" class="item-link list-button">Registrar</a>
+					
+				 
+              </li>
+            </ul>
+            <div class="block-footer">
+			 <a href="#" class="link login-screen-close button button-fill">Cancelar</a>
+			  </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+	
+	
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>

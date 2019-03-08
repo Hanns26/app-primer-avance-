@@ -1,0 +1,156 @@
+.navbar-inner{
+	background-color: #BE761C;
+}
+
+.toolbar-inner{
+	background-color: #BE761C;
+}
+
+
+.login-screen .page-content{
+	background-image: url(../img/fondoregistre-01.jpg) !important;
+}
+
+.item-link .list-button{
+	color: #BE761C !important;
+}
+
+.md .item-label{
+	color: #fff !important;
+	font-size: 18px !important;
+}
+
+.login-screen-content .list-button{
+	color: #fff !important;
+	font-weight: 700 !important;
+	font-size: 18px !important;
+}
+
+.md .color-theme-blue .button{
+	background-color: #BE761C !important;
+}
+
+.cuadro{
+	background-color: #BE761C;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+.perfil h3, p{
+	margin: 0;
+}
+.perfil h3{
+	font-size: 16px;
+	color: #333;
+}
+.perfil p{
+	font-size: 12px;
+	color: #666;
+}
+.panel .list i{
+	color: #474b5e !important;
+	font-size: 20px !important;
+}
+.panel .list .item-title{
+	font-size: 14px;
+}
+
+.perfil{
+	text-align: center !important; 
+}
+
+.perfil h3,
+.perfil p{
+	margin: 0;
+}
+.perfil h3{
+	font-size: 16px;
+	color: #333;
+}
+.perfil p{
+	font-size: 12px;
+	color: #666;
+}
+.panel .list i{
+	color: #474B5E;
+	font-size: 20px !important;
+}
+.panel .list .item-title{
+	font-size: 14px;
+}
+
+.cafetano h4{
+	font-size: 24px;
+	margin: 2px 0;
+}
+.cafetano i{
+	color: #fed430;
+	font-size: 12px;
+}
+
+.navbar-inner{
+	background-color:#EB761C
+}
+
+.toolbar-inner{
+	background-color:#EB761C
+}
+.page-content{
+	background-image: url(../img/png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	
+}
+.btn-rectanglo{
+	padding-top: 45px;
+	background-color:#EB761C;
+	border: 0px;
+	color: #fff !important;
+	border-radius: 25px;
+	padding: 15px 95px;
+	font-size: 16px ;
+}
+
+.texto{
+	text-align: center;
+	color: #BFBFBF;
+	font-size: 14px;
+	padding-top: 65px;
+}
+.image1{
+	padding-top: 125px !important;
+}
+.m-auto{
+	margin: auto;
+	display: block;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+.perfil h3, p{
+	margin: 0;
+}
+.perfil h3{
+	font-size: 16px;
+	color: #333;
+}
+.perfil p{
+	font-size: 12px;
+	color: #666;
+}
+.panel .list i{
+	color: #474b5e !important;
+	font-size: 20px !important;
+}
+.panel .list .item-title{
+	font-size: 14px;
+}
+
+.perfil{
+	text-align: center !important; 
+}
